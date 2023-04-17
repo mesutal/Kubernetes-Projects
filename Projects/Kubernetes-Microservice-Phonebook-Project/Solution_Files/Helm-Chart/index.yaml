@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  kubernetes-microservice-project:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-17T13:34:25.2402858+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 3472abf3abd3c7748b05d2da1307e05f798eb7aef9359826689974eb84c14df0
+    name: kubernetes-microservice-project
+    type: application
+    urls:
+    - kubernetes-microservice-project-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-17T13:34:25.2308368+03:00"
