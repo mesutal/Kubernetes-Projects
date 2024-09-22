@@ -119,7 +119,7 @@ spec:
     spec:
       containers:
       - name: web-flask-pod
-        image: clarusway/cw_web_flask1
+        image: example/cw_web_flask1
         ports:
         - containerPort: 5000
 ```
@@ -159,7 +159,7 @@ metadata:
 spec:
   containers:
   - name: forcurl
-    image: clarusway/forping
+    image: example/forping
     imagePullPolicy: IfNotPresent
   restartPolicy: Always
 ```
@@ -439,7 +439,7 @@ spec:
     spec:
       containers:
       - name: web-flask-pod
-        image: clarusway/cw_web_flask1
+        image: example/cw_web_flask1
         ports:
         - containerPort: 5000
 ```

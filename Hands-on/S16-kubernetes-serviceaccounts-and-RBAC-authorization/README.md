@@ -200,7 +200,7 @@ roleRef:
 - Before the create the `rolebinding`, create a pod and see that it doesn't have any authority to reach kubernetes cluster.
 
 ```bash
-kubectl run mypod --image=clarusway/kubectl
+kubectl run mypod --image=example/kubectl
 kubectl exec -it mypod -- sh
 / # kubectl get po
 Error from server (Forbidden): pods is forbidden: User "system:serviceaccount:default:default" cannot list resource "pods" in API group "" in the namespace "default"
@@ -261,7 +261,7 @@ metadata:
   name: kubepod
 spec:
   containers:
-  - image: clarusway/kubectl
+  - image: example/kubectl
     name:  kubepod
   serviceAccountName: mysa
 ```

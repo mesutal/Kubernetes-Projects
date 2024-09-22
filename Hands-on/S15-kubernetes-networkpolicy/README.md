@@ -91,7 +91,7 @@ spec:
     spec:
       containers:
       - name: clarusshop
-        image: clarusway/clarusshop
+        image: example/clarusshop
         ports:
         - containerPort: 80
 ---
@@ -167,7 +167,7 @@ spec:
     spec:
       containers:
       - name: clarusdb
-        image: clarusway/clarusdb:v1
+        image: example/clarusdb:v1
         ports:
         - containerPort: 80
 ---

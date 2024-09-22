@@ -397,7 +397,7 @@ metadata:
 
 spec:
   rules:
-    - host: clarusshop.clarusway.us
+    - host: clarusshop.example.us
       http:
         paths:
           - path: /account
@@ -446,16 +446,16 @@ Output:
 
 ```bash
 NAME                 CLASS    HOSTS                     ADDRESS                                                                  PORTS   AGE
-ingress-clarusshop   <none>   clarusshop.clarusway.us   k8s-default-ingressc-38a2e90a69-1914587084.us-east-2.elb.amazonaws.com   80      16m
+ingress-clarusshop   <none>   clarusshop.example.us   k8s-default-ingressc-38a2e90a69-1914587084.us-east-2.elb.amazonaws.com   80      16m
 ```
 
 - Create an `A record` for your host on `route53 service` like `clarusshop.<host-name>`
 
-- On browser, type `clarusshop.clarusway.us`, you must see the clarusshop web page. If you type `clarusshop.clarusway.us/account`, then the account page will be opened and so on.
+- On browser, type `clarusshop.example.us`, you must see the clarusshop web page. If you type `clarusshop.example.us/account`, then the account page will be opened and so on.
 
 - Note that the web page is published as https.
 
-- Try to reach web page as http. `http://clarusshop.clarusway.us`.
+- Try to reach web page as http. `http://clarusshop.example.us`.
 
 - It redirect to https page thanks to `alb.ingress.kubernetes.io/actions.ssl-redirect`.
 

@@ -443,7 +443,7 @@ metadata:
 spec:
   containers:
   - name: clarus-db
-    image: clarusway/clarusdb
+    image: example/clarusdb
     imagePullPolicy: IfNotPresent
   restartPolicy: Always
 ```
@@ -481,7 +481,7 @@ spec:
     spec:
       containers:
       - name: clarusshop
-        image: clarusway/clarusshop
+        image: example/clarusshop
         ports:
         - containerPort: 80
       affinity:

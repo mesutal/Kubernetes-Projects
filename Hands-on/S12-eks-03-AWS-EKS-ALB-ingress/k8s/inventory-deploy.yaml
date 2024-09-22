@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: inventory
-        image: clarusway/clarusshop-inventory
+        image: example/shop-inventory
         ports:
         - containerPort: 80

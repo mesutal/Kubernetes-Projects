@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: storefront
-        image: clarusway/clarusshop-storefront
+        image: example/shop-storefront
         ports:
         - containerPort: 80

@@ -47,3 +47,4 @@ spec:
      targetPort: 8081
      nodePort: 30003
      protocol: TCP
+    

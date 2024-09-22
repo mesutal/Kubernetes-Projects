@@ -489,7 +489,7 @@ spec:
         app: todoapp
     spec:
       containers: 
-        - image: clarusways/todo
+        - image: examples/todo
           imagePullPolicy: Always
           name: myweb
           ports: 
@@ -731,3 +731,4 @@ eksctl delete cluster cw-cluster --region us-east-1
 ```
 
 - Do no forget to delete related ebs volumes.
+

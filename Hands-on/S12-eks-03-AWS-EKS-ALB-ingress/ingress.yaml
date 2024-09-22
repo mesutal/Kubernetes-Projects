@@ -47,3 +47,4 @@ spec:
                 name: storefront-service
                 port: 
                   number: 80
+                  

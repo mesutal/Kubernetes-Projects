@@ -15,7 +15,7 @@ At the end of this hands-on training, students will be able to;
 ## Outline
 
 - Part 1 - Setting up the Kubernetes Cluster
-
+ 
 - Part 2 - Basic Operations with Helm
 
 - Part 3 - Creating Helm chart

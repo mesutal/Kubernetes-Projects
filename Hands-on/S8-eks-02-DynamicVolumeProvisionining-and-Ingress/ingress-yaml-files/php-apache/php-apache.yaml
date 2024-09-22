@@ -35,3 +35,4 @@ spec:
   selector:
     run: php-apache 	
   type: LoadBalancer
+

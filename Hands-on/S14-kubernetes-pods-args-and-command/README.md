@@ -161,7 +161,7 @@ metadata:
 spec:
   containers:
   - name: args-commands
-    image: clarusway/entrypoint-cmd
+    image: example/entrypoint-cmd
     command: ["sleep"]  # This overwrites ENTRYPOINT in Dockerfile. 
     args: ["10"]  # This overwrites CMD in Dockerfile
     env:
